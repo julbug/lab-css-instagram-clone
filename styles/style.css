@@ -4,7 +4,106 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+html{
+  max-width: 1500px;
+  margin: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0 0 0;
+}
+
+header{
+  background: linear-gradient(to bottom, #5499C7 0%, #1c5380 100%);
+  width: -webkit-fill-available;
+  height: 350px;
+}
+
+.TitleBox{
+  display: flex;
+  margin: auto;
+  padding: 105px 596px;
+}
+
+.HomeImage{
+  padding-left: 100px;
+  padding-top: 25px;
+}
+
+.LoginButton{
+  padding-top: 15px;
+  padding-left: 132px;
+}
+
+button{
+  padding-left: 9px;
+  padding-right: 50px;
+  color: white;
+  background-color: #1c5380;
+}
+}
+
+.PhoneImage{
+  padding-bottom: 500px;
+}
+
+.tile2box{
+  display: flex;
+  align-items: center;
+  border-radius: 1px;
+  margin: -188px 205px -6px;
+  padding: 10px 0;
+}
+
+.tile2Title{
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  margin: 20px 72px;
+  padding: 25px;
+}
+
+.tile2Title > h2{
+  color: #06365f;
+}
+
+.tile2Text{
+  padding-right: 120px;
+}
+
+.AppButton{
+  display: flex;
+  -webkit-box-orient: vertical;
+  flex-shrink: 0;
+  margin: 40px;
+  padding: 20px;
+  position: absolute
+  justify-content: space-between;
+}
+
+.EndNavBar{
+  max-width: 1500px;
+  margin-bottom: 0;
+  margin: auto;
+  top: 0;
+  left: 0;
+  padding: 0 2vw 0;
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer div:nth-child(2){
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 24%;
+  font-size: 20px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
 }
